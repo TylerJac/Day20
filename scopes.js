@@ -6,10 +6,11 @@ function outer(){
      a = "not memes";
      b.name = "Bob";
      b.age = "20";
-     return a;
+     console.log(a);
+     console.log(b);
     }
   
-    a = inner(a,b);
+    inner(a,b);
     console.log(a);
     console.log(b);
   }
